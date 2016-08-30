@@ -17,12 +17,12 @@
     * File : index.html
 -->
 <!DOCTYPE html>
-<html class="page-05-designer" lang="en">
+<html class="page-06-developer" lang="en">
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <title>Charlie - Fedora starter assistant - Designer</title>
+        <title>Charlie - Fedora starter assistant - Developer</title>
 
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/charlie.css" rel="stylesheet">
@@ -49,17 +49,20 @@
         <div class="jumbotron">
             <div class="container">
                 <div class="page-header">
-                    <h2>Designer</h2>
+                    <h2>Developer</h2>
                 </div>
-                <p>Designers communicate through images! They create all the Fedora related artwork you see - the background images on Fedora systems, stickers, T-shirts, banners; and they also design applications that the community uses, the website for example.</p>
+                <p>Developers communicate with code! They create and maintain the different tools that the Fedora community uses, and they also package up available free software to provide to users.</p>
                 <br />
+                <div class="alert alert-success alert-dismissible" role="alert">
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">&times;</span></button>Read how the Fedora developers work closely with various upstreams to ensure that the Free and Open Source community benefits from their work on the wiki <a href="https://fedoraproject.org/wiki/Staying_close_to_upstream_projects" target="_blank">here!</a>
+                </div>
                 <div class="row">
                     <div class="btn-group" role="group">
                         <div class="col-md-6">
-                            <a title="Back: Tour: Content writer" class="btn btn-primary btn-lg" href="04-content-writer.html" role="button">Back &laquo;</a>
+                            <a title="Back: Tour: Designer" class="btn btn-primary btn-lg" href="05-designer.html" role="button">Back &laquo;</a>
                         </div>
                         <div class="col-md-6">
-                            <a title="Next: Tour: Developer" class="btn btn-primary btn-lg" href="06-developer.html" role="button">Next &raquo;</a></p>
+                            <a title="Next: Tour: People Person" class="btn btn-primary btn-lg" href="07-people-person.html" role="button">Next &raquo;</a></p>
                         </div>
                     </div>
                 </div>
@@ -67,8 +70,8 @@
         </div>
         <div class="container">
             <div class="progress">
-              <div class="progress-bar" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width: 50%;">
-                50%
+              <div class="progress-bar" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+                60%
               </div>
             </div>
         </div>
@@ -80,11 +83,10 @@
                             <li class="list-group-item list-group-item-success"><h3 class="list-group-item-heading">Skills you'd need:</h3></li>
                             <li class="list-group-item list-group-item-info">
                                 <ul>
-                                    <li>Inkscape</li>
-                                    <li>GIMP</li>
-                                    <li>LibreOffice</li>
-                                    <li>design</li>
-                                    <li>usability/interaction</li>
+                                    <li>Programming and debugging</li>
+                                    <li>Knowledge of software development tools</li>
+                                    <li>RPM/Packaging</li>
+                                    <li>Bugfiling</li>
                                 </ul>
                             </li>
                         </ul>
@@ -92,22 +94,39 @@
                     <div class="col-md-4">
                         <ul class="list-group">
                             <li class="list-group-item list-group-item-success"><h3 class="list-group-item-heading">Some example tasks:</h3></li>
-                            <li class="list-group-item list-group-item-info"><strong>Design: </strong> 
+                            <li class="list-group-item list-group-item-info"><strong>Packaging: </strong> 
                                 <ul>
-                                    <li>serve as a part of a design firm for the Fedora community, creating artwork and designs to for the Fedora community on request.</li>
-                                    <li>improve end-user experience with coherent, accessible and intuitive design for Fedora.</li>
+                                    <li>create and maintain RPM packages for software in Fedora</li>
                                 </ul>
                             </li>
-                            <li class="list-group-item list-group-item-info"><strong>CommOps: </strong> 
+                            <li class="list-group-item list-group-item-info"><strong>QA: </strong> 
                                 <ul>
-                                    <li>help with different sub-projects in Fedora to identify <a href="http://badges.fedoraproject.org" target="_blank">Badges</a> that are needed and help to co-ordinate their creation</li>
+                                    <li>test/break Fedora!</li>
+                                    <li>do quality assurances to ensure a robust platform for Fedora</li>
                                 </ul>
                             </li>
-                            <li class="list-group-item list-group-item-info"><strong>Fonts: </strong> 
+                            <li class="list-group-item list-group-item-info"><strong>Bug traige: </strong> 
                                 <ul>
-                                    <li>find the best fonts to include, to please artists</li>
-                                    <li>propose good Fedora fonts defaults</li>
-                                    <li>create and improve Fedora fonts</li>
+                                    <li>track down and shoot Fedora bugs in <a href="http://bugzilla.redhat.com" target="_blank">http://bugzilla.redhat.com</a></li>
+                                    <li>bridge the gap between users and developers to aid in fixing bugs</li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item list-group-item-info"><strong>Infrastructure: </strong> 
+                                <ul>
+                                    <li>help provide servers, tools, and utilities for the community</li>
+                                    <li>create new applications to make development of Fedora smoother</li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item list-group-item-info"><strong>Release engineering: </strong> 
+                                <ul>
+                                    <li>maintain the Fedora build system</li>
+                                    <li>maintain the package repositories</li>
+                                    <li>create and release new Fedora versions</li>
+                                </ul>
+                            </li>
+                            <li class="list-group-item list-group-item-info"><strong>Websites: </strong> 
+                                <ul>
+                                    <li>improve Fedora's image and create better interfaces for users and contributors on the Internet</li>
                                 </ul>
                             </li>
                         </ul>
@@ -115,12 +134,13 @@
                     <div class="col-md-4">
                         <ul class="list-group">
                             <li class="list-group-item list-group-item-success"><h3 class="list-group-item-heading">Related teams:</h3></li>
-                            <li class="list-group-item list-group-item-info"><a href="https://fedoraproject.org/wiki/Design" target="_blank"><strong>Design</strong></a> <a href="https://fedoraproject.org/wiki/Join_the_Design_Team" target="_blank">(Join!)</a></li>
+                            <li class="list-group-item list-group-item-info"><a href="https://fedoraproject.org/wiki/Category:Package_Maintainers" target="_blank"><strong>Packaging</strong></a> <a href="https://fedoraproject.org/wiki/Join_the_package_collection_maintainers" target="_blank">(Join!)</a></li>
                             <li class="list-group-item list-group-item-info"><a href="https://fedoraproject.org/wiki/CommOps" target="_blank"><strong>CommOps</strong></a> <a href="https://fedoraproject.org/wiki/CommOps/Join" target="_blank">(Join!)</a></li>
+                            <li class="list-group-item list-group-item-info"><a href="https://fedoraproject.org/wiki/QA" target="_blank"><strong>QA</strong></a> <a href="https://fedoraproject.org/wiki/QA/Join" target="_blank">(Join!)</a></li>
                             <li class="list-group-item list-group-item-info"><a href="https://fedoraproject.org/wiki/Docs_Project" target="_blank"><strong>Docs</strong></a> <a href="https://fedoraproject.org/wiki/Join_the_Docs_Project" target="_blank">(Join!)</a></li>
-                            <li class="list-group-item list-group-item-info"><a href="https://fedoraproject.org/wiki/Marketing" target="_blank"><strong>Marketing</strong></a> <a href="https://fedoraproject.org/wiki/Joining_the_Fedora_marketing_project" target="_blank">(Join!)</a></li>
+                            <li class="list-group-item list-group-item-info"><a href="https://fedoraproject.org/wiki/Infrastructure" target="_blank"><strong>Infrastructure</strong></a> <a href="https://fedoraproject.org/wiki/Infrastructure/GettingStarted" target="_blank">(Join!)</a></li>
                             <li class="list-group-item list-group-item-info"><a href="https://fedoraproject.org/wiki/Websites" target="_blank"><strong>Websites</strong></a> <a href="https://fedoraproject.org/wiki/Websites/Join" target="_blank">(Join!)</a></li>
-                            <li class="list-group-item list-group-item-info"><a href="https://fedoraproject.org/wiki/Magazine" target="_blank"><strong>Fedora Magazine</strong></a> <a href="https://fedoramagazine.org/writing-an-article-for-the-fedora-magazine/" target="_blank">(Join!)</a></li>
+                            <li class="list-group-item list-group-item-info"><a href="https://fedoraproject.org/wiki/I18N" target="_blank"><strong>I18N</strong></a> <a href="https://fedoraproject.org/wiki/I18N#Joining_the_Fedora_Internationalization_Project" target="_blank">(Join!)</a></li>
                             <li class="list-group-item list-group-item-info"><a href="https://fedoraproject.org/wiki/Usability" target="_blank"><strong>Usability SIG</strong></a></li>
                             <li class="list-group-item list-group-item-info"><a href="https://fedoraproject.org/wiki/Category:Fonts_SIG" target="_blank"><strong>Fonts SIG</strong></a></li>
                         </ul>
