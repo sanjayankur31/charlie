@@ -1,0 +1,34 @@
+body {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background: none;
+}
+
+.page-index {
+    background: url(../images/by-the-lake.jpg);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+}
+
+.page-01-fas {
+    background: url(../images/lady-musgrave-blue.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+}
+.page-02-fpca {
+    background: url(../images/sunrise-in-florida-ii.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+}
