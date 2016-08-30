@@ -1,6 +1,11 @@
+html {
+    position: relative;
+    min-height: 100%;
+}
+
 body {
     margin-top: 50px;
-    margin-bottom: 50px;
+    margin-bottom: 120px;
     background: none;
 }
 
@@ -25,6 +30,70 @@ body {
 }
 .page-02-fpca {
     background: url(../images/sunrise-in-florida-ii.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+}
+.page-03-quick-tour {
+    background: url(../images/zen.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+}
+.page-04-content-writer {
+    background: url(../images/morning-dew-on-leaves.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+}
+.page-05-designer {
+    /* Replace with an image of the community - maybe a Flock picture? */
+    background: url(../images/aurora-over-iceland.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+}
+.page-06-developer {
+    background: url(../images/aurora-over-iceland.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+}
+.page-07-people-person {
+    background: url(../images/aurora-over-iceland.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+}
+.page-08-translator {
+    background: url(../images/aurora-over-iceland.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center fixed;
+}
+.page-09-web-dev-admin {
+    background: url(../images/aurora-over-iceland.png);
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
